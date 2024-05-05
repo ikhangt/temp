@@ -13,9 +13,7 @@
 [INFO] 
 [INFO] --- dependency:3.6.1:tree (default-cli) @ demo ---
 [INFO] com.example:demo:pom:1.0-SNAPSHOT
-[INFO] \- junit:junit:jar:4.13.2:test
-[INFO]    \- org.hamcrest:hamcrest-core:jar:2.2:test
-[INFO]       \- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] \- junit:junit:jar:3.8.1:test
 [INFO] 
 [INFO] --------------------------< com.example:test >--------------------------
 [INFO] Building test 1.0-SNAPSHOT                                         [2/3]
@@ -24,9 +22,7 @@
 [INFO] 
 [INFO] --- dependency:3.6.1:tree (default-cli) @ test ---
 [INFO] com.example:test:jar:1.0-SNAPSHOT
-[INFO] \- junit:junit:jar:4.13.2:test
-[INFO]    \- org.hamcrest:hamcrest-core:jar:2.2:test
-[INFO]       \- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] \- junit:junit:jar:3.8.1:test
 [INFO] 
 [INFO] ------------------------< com.example:foo-app >-------------------------
 [INFO] Building foo-app 1.0-SNAPSHOT                                      [3/3]
@@ -35,9 +31,7 @@
 [INFO] 
 [INFO] --- dependency:3.6.1:tree (default-cli) @ foo-app ---
 [INFO] com.example:foo-app:jar:1.0-SNAPSHOT
-[INFO] \- junit:junit:jar:4.13.2:test
-[INFO]    \- org.hamcrest:hamcrest-core:jar:2.2:test
-[INFO]       \- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] \- junit:junit:jar:3.8.1:test
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for demo 1.0-SNAPSHOT:
 [INFO] 
