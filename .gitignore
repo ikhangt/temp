@@ -1,0 +1,10 @@
+target
+
+# IntelliJ IDEA configuration
+.idea
+.ideaDataSources/
+*.iml
+*.ipr
+*.iws
+out/
+dataSources/
