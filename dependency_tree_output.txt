@@ -30,6 +30,27 @@
 [INFO] 
 [INFO] --- dependency:3.6.1:tree (default-cli) @ foo-app ---
 [INFO] com.example:foo-app:jar:1.0-SNAPSHOT
+[INFO] \- org.apache.beam:beam-sdks-java-core:jar:2.46.0:compile
+[INFO]    +- org.apache.beam:beam-model-pipeline:jar:2.46.0:compile
+[INFO]    |  \- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
+[INFO]    +- org.apache.beam:beam-model-job-management:jar:2.46.0:compile
+[INFO]    +- org.apache.beam:beam-vendor-grpc-1_48_1:jar:0.1:compile
+[INFO]    +- org.apache.beam:beam-vendor-guava-26_0-jre:jar:0.1:compile
+[INFO]    +- net.bytebuddy:byte-buddy:jar:1.14.12:compile
+[INFO]    +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.10.0:compile
+[INFO]    +- com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile
+[INFO]    +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile
+[INFO]    +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile
+[INFO]    +- org.slf4j:slf4j-api:jar:2.0.12:compile
+[INFO]    +- org.apache.avro:avro:jar:1.8.2:compile
+[INFO]    |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+[INFO]    |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+[INFO]    |  +- com.thoughtworks.paranamer:paranamer:jar:2.7:compile
+[INFO]    |  +- org.apache.commons:commons-compress:jar:1.8.1:compile
+[INFO]    |  \- org.tukaani:xz:jar:1.5:compile
+[INFO]    +- org.xerial.snappy:snappy-java:jar:1.1.8.4:compile
+[INFO]    \- joda-time:joda-time:jar:2.10.10:compile
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for demo 1.0-SNAPSHOT:
 [INFO] 
