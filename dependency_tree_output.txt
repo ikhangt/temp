@@ -30,15 +30,63 @@
 [INFO] 
 [INFO] --- dependency:3.6.1:tree (default-cli) @ foo-app ---
 [INFO] com.example:foo-app:jar:1.0-SNAPSHOT
+[INFO] +- com.google.cloud:google-cloud-pubsub:jar:1.119.0:compile
+[INFO] |  +- io.grpc:grpc-api:jar:1.46.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.46.0:compile
+[INFO] |  +- io.grpc:grpc-stub:jar:1.46.0:compile
+[INFO] |  +- io.grpc:grpc-protobuf:jar:1.46.0:compile
+[INFO] |  +- io.grpc:grpc-protobuf-lite:jar:1.46.0:compile
+[INFO] |  +- com.google.api:api-common:jar:2.2.0:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  +- com.google.protobuf:protobuf-java:jar:3.20.1:compile
+[INFO] |  +- com.google.api.grpc:proto-google-common-protos:jar:2.8.3:compile
+[INFO] |  +- com.google.auth:google-auth-library-oauth2-http:jar:1.7.0:compile
+[INFO] |  +- com.google.auth:google-auth-library-credentials:jar:1.7.0:compile
+[INFO] |  +- com.google.http-client:google-http-client-gson:jar:1.41.8:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.10.1:compile
+[INFO] |  +- com.google.api.grpc:proto-google-cloud-pubsub-v1:jar:1.101.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-iam-v1:jar:1.3.4:compile
+[INFO] |  +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.22.0:compile
+[INFO] |  +- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  +- com.google.api:gax:jar:2.18.1:compile
+[INFO] |  +- com.google.api:gax-grpc:jar:2.18.1:compile
+[INFO] |  +- io.grpc:grpc-alts:jar:1.46.0:runtime
+[INFO] |  +- io.grpc:grpc-grpclb:jar:1.46.0:runtime
+[INFO] |  +- com.google.protobuf:protobuf-java-util:jar:3.20.1:runtime
+[INFO] |  +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.1:compile
+[INFO] |  +- io.grpc:grpc-auth:jar:1.46.0:runtime
+[INFO] |  +- io.grpc:grpc-netty-shaded:jar:1.46.0:runtime
+[INFO] |  +- io.grpc:grpc-googleapis:jar:1.46.0:runtime
+[INFO] |  +- io.grpc:grpc-xds:jar:1.46.0:runtime
+[INFO] |  +- io.grpc:grpc-services:jar:1.46.0:runtime
+[INFO] |  +- com.google.re2j:re2j:jar:1.5:runtime
+[INFO] |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.67:runtime
+[INFO] |  +- org.bouncycastle:bcprov-jdk15on:jar:1.67:runtime
+[INFO] |  +- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+[INFO] |  +- org.threeten:threetenbp:jar:1.6.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] |  +- io.grpc:grpc-core:jar:1.46.0:compile
+[INFO] |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.21:runtime
+[INFO] |  +- io.perfmark:perfmark-api:jar:0.25.0:runtime
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.13.1:compile
+[INFO] |  +- com.google.auto.value:auto-value-annotations:jar:1.9:compile
+[INFO] |  +- com.google.http-client:google-http-client:jar:1.41.8:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.16.1:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+[INFO] |  \- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
 [INFO] \- org.apache.beam:beam-sdks-java-core:jar:2.46.0:compile
 [INFO]    +- org.apache.beam:beam-model-pipeline:jar:2.46.0:compile
-[INFO]    |  \- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
 [INFO]    +- org.apache.beam:beam-model-job-management:jar:2.46.0:compile
 [INFO]    +- org.apache.beam:beam-vendor-grpc-1_48_1:jar:0.1:compile
 [INFO]    +- org.apache.beam:beam-vendor-guava-26_0-jre:jar:0.1:compile
 [INFO]    +- net.bytebuddy:byte-buddy:jar:1.14.12:compile
-[INFO]    +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
-[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.10.0:compile
 [INFO]    +- com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile
 [INFO]    +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile
 [INFO]    +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile
